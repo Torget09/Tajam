@@ -1,0 +1,1023 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+// * {
+//     outline: 2px solid red;
+// }
+img {
+    max-width: 100%;
+    height: auto;
+}
+span, a, label {
+    display: inline-block;
+}
+
+$rang:dodgerblue;
+$rang1:rgb(67, 40, 88);
+$rang2:white;
+$xira:rgb(124, 123, 123);
+
+@mixin url($r){
+    background-image: $r;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+@mixin myf($b, $c:center){
+    display: flex;
+    flex-wrap: wrap;
+    align-items: $c;
+    justify-content: $b;
+}
+
+.asosiy {
+    max-width: 1600px;
+    margin: auto;
+}
+.bir {
+    @include url(url(trees-bg.png));
+}
+.br {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 150px;
+}
+.bchap {
+    width: 60%; 
+}
+.ba {
+    margin:0 10px;
+    color: $rang2;
+    text-decoration: none;
+    font-weight: bold;
+}
+.ba1 {
+    margin:0 10px;
+    color: $rang;
+    text-decoration: none;
+    font-weight: bold;
+}
+.bh1 {
+    max-width: 1200px;
+    margin: auto;
+    font-size: 45px;
+    font-weight: bold;
+    color: $rang2;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.bch {
+    width: 60px;
+    height: 2px;
+    background-color: $rang;
+    margin: auto;
+    margin-bottom: 25px;
+}
+.p {
+    max-width: 1200px;
+    margin: auto;
+    color: $rang2;
+    text-align: center;
+    width: 60%;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+.bbtn {
+    border: 2px solid $rang;
+    padding: 10px 20px;
+    background-color:rgba(255, 255, 255, 0);
+    color: $rang;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+.nuq {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.nu {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 2px solid $rang2;
+    margin: 0 3px;
+}
+.nu1 {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 2px solid $rang;
+    background-color: $rang;
+    margin: 0 3px;
+}
+.iki {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 30px 200px;
+}
+.ipic {
+    width: 20%;
+}
+.ichap {
+    width: 55%;
+}
+.ih1 {
+    color: $rang1;
+    margin-bottom: 10px;
+}
+.ip {
+    margin-bottom: 10px;
+    color: $xira;
+}
+.iip {
+    color: $xira;
+    margin-bottom: 50px;
+}
+.ibtn {
+    border: 2px solid $rang;
+    padding: 10px 20px;
+    background-color:rgba(255, 255, 255, 0);
+    color: $rang;
+    font-weight: bold;
+}
+.uch {
+    @include url(url(story-bg.png));
+    padding: 200px 200px;
+    text-align: center;
+}
+.ua {
+    font-size: 80px;
+    color: rgba(255, 255, 255, 0.213);
+    margin-bottom: 20px;
+}
+.uh1 {
+    color: $rang2;
+}
+.tort{
+    text-align: center;
+    padding: 50px 200px;
+}
+.th3 {
+    margin-bottom: 10px;
+    color: $rang1;
+}
+.tp {
+    margin-bottom: 10px;
+    
+}
+.tbch {
+    width: 60px;
+    height: 2px;
+    background-color: $rang1;
+    margin: auto;
+    margin-bottom: 25px;
+}
+.tbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 50px;
+}
+.tbp {
+    color: $xira;
+}
+.tbx {
+    width: 30%;
+}
+.ta {
+    font-size: 60px;
+    color: $rang;
+    margin-bottom: 15px;
+}
+.besh {
+    @include url(url(team-bg.png));
+    padding: 20px 100px;
+    text-align: center;
+}
+.bh2 {
+    color: $rang2;
+    margin-bottom: 10px;
+}
+.bp {
+    color: $rang2;
+    margin-bottom: 10px;
+}
+.bbch {
+    width: 60px;
+    height: 2px;
+    background-color: $xira;
+    margin: auto;
+    margin-bottom: 25px;
+}
+.bbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2%;
+    margin-bottom: 50px;
+}
+.bbx {
+    width: 22%;
+    border: 2px solid $rang2;
+    text-align: center;
+}
+.bh3 {
+    margin-bottom: 10px;
+    margin-top: 5px;
+    color: $rang2;
+}
+.bbp {
+    color: $xira;
+    margin-bottom: 10px;
+}
+.bp1 {
+    color: $rang2;
+    margin-bottom: 20px;
+}
+.betn {
+    border: 2px solid $rang;
+    padding: 10px 20px;
+    background-color:rgba(255, 255, 255, 0);
+    color: $rang;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+.olb {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 80px;
+}
+.oh2 {
+    color: $rang1;
+}
+.oa {
+    text-decoration: none;
+    color: $xira;
+}
+.obox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.opic {
+    width: 16.6%;
+}
+.ubtn {
+    border: 2px solid $rang;
+    padding: 10px 20px;
+    background-color:rgba(255, 255, 255, 0);
+    color: $rang;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+.bb {
+    text-align: center;
+}
+.yeti {
+    @include url(url(people-bg.png));
+    padding: 10px 330px;
+}
+.yn {
+    color: $rang2;
+    font-size: 80px;
+    text-align: center;
+}
+.yp {
+    text-align: center;
+    color: $rang2;
+    margin-bottom: 50px;
+}
+.yh3 {
+    text-align: center;
+    color: $rang2;
+    margin-bottom: 5px;
+}
+.yp {
+    color: $xira;
+}
+.ya {
+    color: $xira;
+    font-size: 25px;
+    margin: 0 20px;
+}
+.ypic {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.ypi {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin: 0 10px;
+}
+.ypii {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+.sakz {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 200px;
+}
+.schap {
+    width: 45%;
+}
+.sh1 {
+    margin-bottom: 20px;
+}
+.song {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 45%;
+    column-gap: 20%;
+    row-gap: 40px;
+}
+.spic {
+    width: 30%;
+}
+.form {
+    max-width: 700px;
+    margin: auto;
+}
+.label {
+    font-size: 36px;
+    color: $xira;
+    margin-bottom: 5px;
+}
+.input, .commentbox {
+    display: block;
+    width: 100%;
+    font-size: 32px;
+    border: 2px solid $xira;
+    margin-bottom: 20px;
+    padding: 5px 7px;
+    color: $xira;
+}
+.commentbox {
+    height: 200px;
+    resize: none;
+}
+.input::placeholder, .commentbox::placeholder {
+    color: $xira;
+}
+.sbtn {
+    border: 2px solid $rang;
+    padding: 10px 20px;
+    background-color:rgba(255, 255, 255, 0);
+    color: $rang;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+.toqz {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+    column-gap: 4%;
+    @include url(url(footer-bg.png));
+    color: $xira;
+}
+.s {
+    width: 30%;
+}
+.ssp {
+    margin-bottom: 20px;
+}
+.sn {
+    width: 30%;
+}
+.snh2 {
+    color: $rang2;
+    margin-bottom: 20px;
+}
+.snp {
+    margin-bottom: 10px;
+}
+.aaa {
+    color: $rang2;
+}
+.soh2 {
+    margin-bottom: 20px;
+    color: $rang2;
+}
+.soinp {
+    border: 2px solid $xira;
+    background-color: rgba(78, 37, 87, 0.065);
+    padding: 10px;
+}
+.sobt {
+    padding: 10px;
+    background-color: rgba(144, 119, 150, 0.929);
+    border: none;
+    margin-bottom: 10px;
+}
+.sao {
+    color: black;
+}
+.so {
+    width: 30%;
+}
+.sform {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.ia {
+    margin: 0 10px;
+    color: $rang2;
+    font-size: 25px;
+}
+.fx {
+    width: 70px;
+    height: 70px;
+    background-color: rgb(24, 24, 24);
+    border-radius: 50%;
+    color: rgb(25, 0, 255);
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    z-index: 1;
+}
+@media (max-width:1450px) {
+    .ipic {
+        width: 50%;
+    }
+    .iki {
+        justify-content: center;
+        text-align: center;
+    }
+    .ipic {
+        margin-bottom: 20px;
+    }
+    .ichap {
+        width: 100%;
+    }
+    .opic {
+        width: 20%;
+    }
+}
+@media (max-width:1340px) {
+    .yeti {
+        padding: 10px 200px;
+    }
+    .tort {
+        padding: 10px 100px;
+    }
+    .uch {
+        padding: 150px 150px;
+    }
+    .iki {
+        padding: 30px 180px;
+    }
+    .toqz {
+        padding: 50px 80px;
+    }
+    .besh {
+        padding: 20px 80px;
+    }
+    .ipic {
+        margin-bottom: 20px;
+    }
+    .ichap {
+        width: 100%;
+    }
+    .bbx {
+        width: 40%;
+        margin: 20px 0;
+    }
+    .opic {
+        width: 25%;
+    }
+}
+@media (max-width:1100px) {
+    .ba {
+        align-self: center;
+        width: 15%;
+        margin: 0;
+    }
+    .s, .sn, .so {
+        width: 100%;
+        margin: 20px 0;
+        text-align: center;
+    }
+    .schap, .song {
+        width: 100%;
+        margin: 20px 0;
+        text-align: center;
+    }
+    .sakz {
+        padding: 10px 180px;
+    }
+    .iki {
+        padding: 30px 140px;
+    }
+    .besh {
+        padding: 20px 60px;
+    }
+    .ipic {
+        margin-bottom: 20px;
+    }
+    .ichap {
+        width: 100%;
+    }
+    .toqz {
+        padding: 40px 60px;
+    }
+    .besh {
+        padding: 20px 40px;
+    }
+    .opic {
+        width: 30%;
+    }
+}
+@media (max-width:1040px) {
+    .ypic {
+        width: 100%;
+    }
+    .yeti {
+        padding: 10px 150px;
+    }
+    .uch {
+        padding: 100px 100px;
+    }
+    .iki {
+        padding: 30px 100px;
+    }
+    .ipic {
+        margin-bottom: 20px;
+    }
+    .besh {
+        padding: 20px 40px;
+    }
+    .opic {
+        width: 30%;
+    }
+}
+@media (max-width:940px) {
+    .yeti {
+        padding: 10px 80px;
+    }
+    .tort {
+        padding: 10px 50px;
+    }
+    .uch {
+        padding: 80px 80px;
+    }
+    .iki {
+        padding: 30px 80px;
+    }
+    .ipic {
+        margin-bottom: 20px;
+    }
+    .ichap {
+        width: 100%;
+    }
+    .toqz {
+        padding: 30px 50px;
+    }
+    .besh {
+        padding: 20px 30px;
+    }
+    .opic {
+        width: 50%;
+    }
+    .oh2 {
+        order: -1;
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .oa {
+        order: 1;
+        width: 100%;
+        text-align: center;
+    }
+}
+@media (max-width:800px) {
+    .ba {
+        align-self: center;
+        width: 20%;
+        margin: 0;
+    }
+    .sakz {
+        padding: 10px 100px;
+    }
+    .uch {
+        padding: 60px 60px;
+    }
+    .iki {
+        padding: 30px 60px;
+    }
+    .ipic {
+        margin-bottom: 20px;
+    }
+    .besh {
+        padding: 20px 30px;
+    }
+    .ichap {
+        width: 100%;
+    }
+    .toqz {
+        padding: 20px 50px;
+    }
+    .opic {
+        width: 50%;
+    }
+}
+@media (max-width:790px) {
+    .yeti {
+        padding: 10px 10px;
+    }
+    .ypic {
+        font-size: 20px;
+        margin:0;
+    }
+    .ipic {
+        margin-bottom: 20px;
+    }
+    .ichap {
+        width: 100%;
+    }
+    .ypi  {
+         width: 25%;
+    }
+    .opic {
+        width: 50%;
+    }
+    .oh2 {
+        order: -1;
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .oa {
+        order: 1;
+        width: 100%;
+        text-align: center;
+    }
+}
+@media (max-width:700px) {
+    .yeti {
+        padding: 10px 50px;
+    }
+    .sakz {
+        padding: 10px 50px;
+    }
+    .bbx {
+        width: 100%;
+    }
+    .tbx {
+        width: 35%;
+        row-gap: 20px;
+    }
+    .iki {
+        padding: 30px 40px;
+    }
+    .ipic {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .ichap {
+        width: 100%;
+    }
+    .toqz {
+        padding: 10px 40px;
+    }
+}
+@media (max-width:730px) {
+    .ba {
+        align-self: center;
+        width: 40%;
+        margin: 0;
+    }
+    .tort {
+        padding: 15px;
+    }
+    .uch {
+        padding: 30px 30px;
+    }
+    .toqz {
+        padding: 10px 30px;
+    }
+    .ipic {
+        width: 70%;
+        margin-bottom: 20px;
+    }
+    .ichap {
+        width: 100%;
+    }
+    .bbx {
+        width: 100%;
+    }
+    .besh {
+        padding: 20px 20px;
+    }
+    .ypi  {
+        width: 30%;
+    }
+    .opic {
+        width: 50%;
+    }
+    .oh2 {
+        order: -1;
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .oa {
+        order: 1;
+        width: 100%;
+        text-align: center;
+    }
+}
+@media (max-width:500px) {
+    .ba {
+        align-self: center;
+        width: 100%;
+        margin: 0;
+        line-height: 1.6;
+        order: 1;
+        font-size: 25px;
+    }
+    .ba1 {
+        align-self: center;
+        width: 100%;
+        margin: 0;
+        line-height: 1.6;
+        order: 1;
+        font-size: 25px;
+    }
+    .pic {
+        order: -1;
+        width: 50%;
+    }
+    .br {
+        justify-content: center;
+        text-align: center;
+    }
+    .tort {
+        padding: 10px;
+    }
+    .th3{
+        width: 100%;
+    }
+    .tbp {
+        width: 100%;
+    }
+    .tbx {
+        width: 100%;
+    }
+    .uch {
+        width: 100%;
+        padding:0;
+    }
+    .iki {
+        padding: 10px 0;
+    }
+    .ipic {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .ichap {
+        width: 100%;
+    }
+    .bh1 {
+        width: 100%;
+        padding: 0;
+    }
+    .p {
+        width: 100%;    
+    }
+    .bir {
+        padding: 0;
+    }
+    .s, .sn, .so {
+        width: 100%;
+        margin: 20px 0;
+        text-align: center;
+    }
+    .toqz {
+        padding: 10px 25px;
+    }
+    .spic {
+        width: 100%;
+        row-gap: 0;
+    }
+    .bbx {
+        width: 100%;
+    }
+    .box {
+        width: 100%;
+    }
+    .besh {
+        padding: 20px 20px;
+    }
+    .ypi  {
+        width: 50%;
+    }
+    .ypii {
+        width: 60%;
+    }
+    .opic {
+        width: 100%;
+    }
+    .oh2 {
+        order: -1;
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .oa {
+        order: 1;
+        width: 100%;
+        text-align: center;
+    }
+}
+@media (max-width:450px) {
+    .th3, .tbp {
+        width: 100%;
+    }
+    .s, .sn, .so {
+        width: 100%;
+        margin: 20px 0;
+        text-align: center;
+    }
+    .bbx {
+        width: 100%;
+    }
+    .ypi  {
+        width: 100%;
+    }
+    .ypii {
+        width: 100%;
+    }
+}
+@media (max-width:400px) {
+    .yeti {
+        padding: 10px 20px;
+    }
+    .ba {
+        align-self: center;
+        width: 100%;
+        margin: 0;
+        line-height: 1.6;
+        order: 1;
+        font-size: 25px;
+    }
+    .ba1 {
+        align-self: center;
+        width: 100%;
+        margin: 0;
+        line-height: 1.6;
+        order: 1;
+        font-size: 25px;
+    }
+    .s, .sn, .so {
+        width: 100%;
+        margin: 20px 0;
+        text-align: center;
+    }
+    .toqz {
+        padding: 10px 0;
+    }
+    .spic {
+        width: 100%;
+        row-gap: 0;
+    }
+    .box {
+        width: 100%;
+    }
+    .sh1 {
+        width: 100%;
+        text-align: center;
+    }
+    .besh {
+        padding: 20px 20px;
+    }
+    .sakz {
+        padding: 10px;
+    }
+    .bbx {
+        width: 100%;
+    }
+    .ypi  {
+        width: 100%;
+    }
+    .ypii {
+        width: 100%;
+    }
+    .opic {
+        width: 100%;
+    }
+    .oh2 {
+        order: -1;
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .oa {
+        order: 1;
+        width: 100%;
+        text-align: center;
+    }
+}
+@media (max-width:300px) {
+    .yeti {
+        padding: 10px 10px;
+    }
+    .ba {
+        align-self: center;
+        width: 100%;
+        margin: 0;
+        line-height: 1.6;
+        order: 1;
+        font-size: 25px;
+    }
+    .ba1 {
+        align-self: center;
+        width: 100%;
+        margin: 0;
+        line-height: 1.6;
+        order: 1;
+        font-size: 25px;
+    }
+    .s, .sn, .so {
+        width: 100%;
+        margin: 20px 0;
+        text-align: center;
+    }
+    .toqz {
+        padding: 10px 0;
+    }
+    .spic {
+        width: 100%;
+        row-gap: 0;
+    }
+    .box {
+        width: 100%;
+    }
+    .besh {
+        padding: 20px 20px;
+    }
+    .sakz {
+        padding: 10px;
+    }
+    .bbx {
+        width: 100%;
+    }
+    .ypi  {
+        width: 100%;
+        margin: 15px 0;
+    }
+    .ypii {
+        width: 100%;
+        margin: 5px 0;
+    }
+    .opic {
+        width: 100%;
+    }
+    .oh2 {
+        order: -1;
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .oa {
+        order: 1;
+        width: 100%;
+        text-align: center;
+    }
+}
